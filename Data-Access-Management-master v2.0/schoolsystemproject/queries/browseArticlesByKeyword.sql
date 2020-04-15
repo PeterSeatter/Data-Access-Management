@@ -22,7 +22,7 @@ JOIN article
 
 ON category.categoryID = article.Category_categoryID  
 
-WHERE name LIKE CONCAT ( '%', browseArticlesByKeyword, "%") 
+WHERE name LIKE CONCAT ( '%', browseArticlesByKeyword, '%') 
 
 ORDER BY category.categoryID ASC; 
 
