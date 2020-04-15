@@ -10,7 +10,7 @@ DROP procedure IF EXISTS ` browseArticlesByKeyword `;
 
 USE `schoolsystemproject`// 
 
-CREATE DEFINER=`root`@`localhost` PROCEDURE `searchTitle`(browseArticlesByKeyword VARCHAR(45)) 
+CREATE DEFINER=`root`@`localhost` PROCEDURE `browseArticlesByKeyword`(browseArticlesByKeyword VARCHAR(45)) 
 
 BEGIN 
 
